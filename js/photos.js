@@ -21,8 +21,8 @@ define([], function () {
       var html, li = "";
       for (var i = begin; i < end && i < data.length; i++) {
         li += '<li><div class="img-box">' +
-          '<a class="img-bg" rel="example_group" href="https://omv80z582.bkt.clouddn.com/' + data[i] + '?raw=true"></a>' +
-          '![](https://omv80z582.bkt.clouddn.com/' + data[i] + '?raw=true)' +
+          '<a class="img-bg" rel="example_group" href="omv80z582.bkt.clouddn.com/' + data[i] + '?raw=true"></a>' +
+          '![](omv80z582.bkt.clouddn.com/' + data[i] + '?raw=true)' +
           '</li>';
       }
 
