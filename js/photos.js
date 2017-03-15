@@ -22,8 +22,9 @@ define([], function () {
       for (var i = begin; i < end && i < data.length; i++) {
 		  li += '<li><div class="img-box">' +
           '<a class="img-bg" rel="example_group" href="http://omv80z582.bkt.clouddn.com/' + data[i] + '?raw=true"></a>' +
-          '![](http://omv80z582.bkt.clouddn.com/' + data[i] + '?raw=true)' +
+          '<img lazy-src="http://omv80z582.bkt.clouddn.com/' + data[i] + '?raw=true" src="http://omv80z582.bkt.clouddn.com/' + data[i] + '?raw=true" style="display: block;">' +
           '</li>';
+
       }
 
 
