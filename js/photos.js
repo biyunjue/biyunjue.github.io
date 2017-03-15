@@ -20,9 +20,9 @@ define([], function () {
       if (begin >= data.length) return;
       var html, li = "";
       for (var i = begin; i < end && i < data.length; i++) {
-        li += '<li><div class="img-box">' +
-          '<a class="img-bg" rel="example_group" href="omv80z582.bkt.clouddn.com/' + data[i] + '?raw=true"></a>' +
-          'omv80z582.bkt.clouddn.com/' + data[i] + '?raw=true' +
+		  li += '<li><div class="img-box">' +
+          '<a class="img-bg" rel="example_group" href="http://omv80z582.bkt.clouddn.com/' + data[i] + '?raw=true"></a>' +
+          '![](http://omv80z582.bkt.clouddn.com/' + data[i] + '?raw=true)' +
           '</li>';
       }
 
