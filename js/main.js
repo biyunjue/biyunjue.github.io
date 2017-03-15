@@ -15,6 +15,7 @@ require([], function (){
         })
     }
 
+	
     var browser = {
         versions: function() {
         var u = window.navigator.userAgent;
@@ -167,11 +168,7 @@ require([], function (){
             })
         })
     }
-	if ($(".instagram").length) {
-		require(['/js/photos.js', '/js/jquery.fancybox.js', '/js/jquery.lazyload.js'], function (obj) {
-		  obj.init();
-		});
-	  }
+	
     // Task lists in markdown
     $('ul > li').each(function() {
         var taskList = {
@@ -204,7 +201,12 @@ require([], function (){
             }
         }
     })
-
+	
+	if ($(".instagram").length) {
+		require(['/js/photos.js', '/js/jquery.fancybox.js', '/js/jquery.lazyload.js'], function (obj) {
+		  obj.init();
+		});
+	}
 
 
 })
